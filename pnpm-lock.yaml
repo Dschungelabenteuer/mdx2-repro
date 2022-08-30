@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.18.13
-  '@mdx-js/react': ^2
+  '@mdx-js/react': ^1
   '@storybook/addon-actions': ^6.5.10
   '@storybook/addon-backgrounds': ^6.5.10
   '@storybook/addon-docs': ^6.5.10
@@ -36,7 +36,7 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.18.13
-  '@mdx-js/react': 2.1.3_react@18.2.0
+  '@mdx-js/react': 1.6.22_react@18.2.0
   '@storybook/addon-actions': 6.5.10_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-backgrounds': 6.5.10_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-docs': 6.5.10_zeqsh3s3xwkm2tgfzwrdl6b7mu
@@ -1843,16 +1843,6 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@mdx-js/react/2.1.3_react@18.2.0:
-    resolution: {integrity: sha512-11n4lTvvRyxq3OYbWJwEYM+7q6PE0GxKbk0AwYIIQmrRkxDeljIsjDQkKOgdr/orgRRbYy5zi+iERdnwe01CHQ==}
-    peerDependencies:
-      react: '>=16'
-    dependencies:
-      '@types/mdx': 2.0.2
-      '@types/react': 18.0.17
-      react: 18.2.0
-    dev: true
-
   /@mdx-js/util/1.6.22:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
     dev: true
@@ -3550,13 +3540,13 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.6
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: true
 
   /@types/eslint/8.4.6:
     resolution: {integrity: sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
     dev: true
 

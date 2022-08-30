@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
-    "@mdx-js/react": "^2",
+    "@mdx-js/react": "^1",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-backgrounds": "^6.5.10",
     "@storybook/addon-docs": "^6.5.10",
